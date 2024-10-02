@@ -1,0 +1,78 @@
+
+Ls -l: to get in nice format
+ls -al: to get even the hidden files 
+
+
+pwd: present working directory
+
+cd / : to get into the root directory
+cd .. to jump back 1 directory
+cd _ : we can go back to home directory
+
+touch( used to create a file) 
+touch afile.txt
+touch thank you siddharth thikekar : every word in this sentence will have a file ( to create multiple files) 
+
+nano afile.txt : to edit a file
+OR 
+vim afile.txt: to edit a file
+
+cat afile.txt: to see what’s inside a file quickly
+
+shred afile.txt: to not let anyone see what’s in that file
+
+mkdir folder1: To make a new directory
+
+cp afile.txt ./folder/afile.txt: to copy the file to a particular destination 
+
+mv afile.txt ./folder/afile.txt: to move a fila to a particular destination 
+
+rm afile.txt : to remove a file 
+
+rm -r directiory/: to remove a directory, where -r is for recursive 
+
+useradd nick: to add a user
+sudo useradd nick
+
+sudo adduser nick: to add some user and set some parameters
+
+su nick: to switch the user 
+exit: to return to base user 
+
+sudo passwd nick : to change the password of other user
+
+sudo passwd: to change your own password 
+
+sudo apt update: to update the repo
+
+sudo apt install  ____: to install something 
+
+man ls : shows us a maual to use the command 
+
+whatis ls: shows what does this command do 
+
+whereis ls: shows the location where it is installed
+
+chmod +x afile.txt: to change the file into an executable file
+
+chown siddharth afile.txt: to change the ownership of the file to siddharth 
+
+sudo systemctl start apache2
+ 
+history: to know all the things that we typed in the terminal 	
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+everything in linux is a file even ls
+
+etc is root directory is for network 
+
+dev is for devices 
+
+home contains all the users 
+
+terminal is used to interact with shell and shell is used to interact with linux kernel 
+
+
+
