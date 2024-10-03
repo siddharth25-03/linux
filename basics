@@ -74,5 +74,19 @@ home contains all the users
 
 terminal is used to interact with shell and shell is used to interact with linux kernel 
 
+Ps : process status tells us all the processes that are running in the system
+
+in command line on terminal if $ appears that means that we are at user mode 
+and if this # appears that means we are at root mode
+
+apropos usb : tells what all commands we have related to usb
+
+whoami command
+
+------------------------------------------------------------------------------------------------------------------
+
+sudo userdel thor : to delete a user thor
+
+sudo usermod: to modify a user 
 
 
